@@ -40,18 +40,31 @@ section:nth-of-type(6){
 }
 
 section:nth-of-type(7){
-    background-image: linear-gradient(90deg, black 33%, red 33%, red 67%, gold 67%);
+    background-image: linear-gradient(180deg, black 33%, red 33%, red 67%, gold 67%);
 
 }
 
 section:nth-of-type(8){
-    background-image: url(./Ghana.png),
+    background-image: url(../black_star.png),
      linear-gradient(180deg, red 33%, gold 33%, gold 67%, green 67%);
     background-position: center;
     background-repeat: no-repeat;
+    
 }
-section:nth-of-type(9){
-    background-image: linear-gradient(90deg, red 100%);
+section:last-of-type{
+    background-color: red;
+    background-image: 
+    url(../yellowstar.png),
+    url(../yellowstar.png),
+    url(../yellowstar.png),
+    url(../yellowstar.png),
+    url(../yellowstar.png), radial-gradient(red, red)
+    ;
+
+    background-repeat: no-repeat;
+    background-size: 200px, 20px, 20px, 20px, 20px; 
+    background-position: 50px 100px, 250px 40px, 300px 75px, 290px 160px, 270px 280px, 0;
+
 
 }
 
